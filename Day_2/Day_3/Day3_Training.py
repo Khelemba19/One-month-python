@@ -1,3 +1,6 @@
+import math
+import os
+
 age = int(20)
 ur_height = float(164)
 x1y1 = 4+2j
@@ -95,7 +98,7 @@ print(type(val))
 
 even_odd = int(input("Enter numbers: "))
 if  even_odd%2 == 0:
-    print(even_odd, "Its even")
+    print(even_odd, "is even")
 else:
     print("Not even")
 
@@ -103,7 +106,7 @@ else:
 val2 = int(2.7)
 div = 7//3
 if (val2 == div):
-    print("Its equal")
+    print("Is equal")
 else:
     print("not equal")
 
@@ -122,7 +125,7 @@ type4 = 10
 if type3 == type4:
     print("'9.8' and 10 are same")
 else:
-    print("they are not the same")
+    print("'9.8' and 10 are not the same")
 
 
 #Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
@@ -132,12 +135,12 @@ pay = hours * rate
 print(pay)
 
 
-
+#to calculate the seconds in a year
 years = 100
 seconds = 60 * 60 * 24 * 365
 print(years * seconds)
 
-#question 23
+#question 23, to print a table of number in a specific way
 
 for i in range(1, 6):
     print(f"{i}, 1, {i}, {i**2}, {i**3}")
